@@ -2,11 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 .about-header {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-
+  background-color: #171717;
+  color: #a3adb2;
+  position: relative;
 }
+
+@media (max-width: 640px) {
+  .about-header {
+      font-size: 0.875rem;
+  }
+
+  .about-header button {
+      font-size: 0.75rem;
+  }
+
+  .mdoc {
+      font-size: 1rem;
+  }
+}
+
 
 .mdoc{
   font-family: "Plus Jakarta Sans", sans-serif;
